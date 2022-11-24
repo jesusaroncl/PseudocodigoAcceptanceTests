@@ -9,31 +9,31 @@ namespace ClusterCompanyTests.StepDefinitions
         [Given(@"se dirige al apartado de “Mi perfil de usuario”")]
         public void GivenSeDirigeAlApartadoDeMiPerfilDeUsuario()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(GivenSeDirigeAlApartadoDeMiPerfilDeUsuario)}");
         }
 
         [When(@"el usuario ingresa a la sección de información de la cuenta")]
         public void WhenElUsuarioIngresaALaSeccionDeInformacionDeLaCuenta()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(WhenElUsuarioIngresaALaSeccionDeInformacionDeLaCuenta)}");
         }
 
         [Then(@"el sistema muestra en pantalla los datos del usuario")]
         public void ThenElSistemaMuestraEnPantallaLosDatosDelUsuario()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(ThenElSistemaMuestraEnPantallaLosDatosDelUsuario)}");
         }
 
         [When(@"presiona el botón de “editar perfil”")]
         public void WhenPresionaElBotonDeEditarPerfil()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(WhenPresionaElBotonDeEditarPerfil)}");
         }
 
         [Then(@"el sistema permite ingresar la data actualizada para cada campo del perfil correspondiente a la información personal")]
         public void ThenElSistemaPermiteIngresarLaDataActualizadaParaCadaCampoDelPerfilCorrespondienteALaInformacionPersonal()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(ThenElSistemaPermiteIngresarLaDataActualizadaParaCadaCampoDelPerfilCorrespondienteALaInformacionPersonal)}");
         }
     }
 }

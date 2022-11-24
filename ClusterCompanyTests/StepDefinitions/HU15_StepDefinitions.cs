@@ -9,19 +9,19 @@ namespace ClusterCompanyTests.StepDefinitions
         [Given(@"que el usuario desea registrar sus operaciones en el aplicativo")]
         public void GivenQueElUsuarioDeseaRegistrarSusOperacionesEnElAplicativo()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(GivenQueElUsuarioDeseaRegistrarSusOperacionesEnElAplicativo)}");
         }
 
         [When(@"el usuario revisa los términos y condiciones")]
         public void WhenElUsuarioRevisaLosTerminosYCondiciones()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(WhenElUsuarioRevisaLosTerminosYCondiciones)}");
         }
 
         [Then(@"el aplicativo proporciona detalladamente los convenios y términos legales que ofrecen garantía y seguridad\.")]
         public void ThenElAplicativoProporcionaDetalladamenteLosConveniosYTerminosLegalesQueOfrecenGarantiaYSeguridad_()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(ThenElAplicativoProporcionaDetalladamenteLosConveniosYTerminosLegalesQueOfrecenGarantiaYSeguridad_)}");
         }
     }
 }

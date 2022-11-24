@@ -9,37 +9,37 @@ namespace ClusterCompanyTests.StepDefinitions
         [Given(@"que el usuario ha iniciado sesión")]
         public void GivenQueElUsuarioHaIniciadoSesion()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(GivenQueElUsuarioHaIniciadoSesion)}");
         }
 
         [Given(@"se dirige al apartado de “Mis gastos”")]
         public void GivenSeDirigeAlApartadoDeMisGastos()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(GivenSeDirigeAlApartadoDeMisGastos)}");
         }
 
         [Given(@"en el apartado de “Mis gastos” se redirige a la opción “Historial de pagos”")]
         public void GivenEnElApartadoDeMisGastosSeRedirigeALaOpcionHistorialDePagos()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(GivenEnElApartadoDeMisGastosSeRedirigeALaOpcionHistorialDePagos)}");
         }
 
         [When(@"el usuario ingresa al apartado de “Historial de pagos”")]
         public void WhenElUsuarioIngresaAlApartadoDeHistorialDePagos()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(WhenElUsuarioIngresaAlApartadoDeHistorialDePagos)}");
         }
 
         [Then(@"el sistema muestra en pantalla un filtro de búsqueda")]
         public void ThenElSistemaMuestraEnPantallaUnFiltroDeBusqueda()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(ThenElSistemaMuestraEnPantallaUnFiltroDeBusqueda)}");
         }
 
         [Then(@"habilita el acceso al uso por el usuario\.")]
         public void ThenHabilitaElAccesoAlUsoPorElUsuario_()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(ThenHabilitaElAccesoAlUsoPorElUsuario_)}");
         }
     }
 }

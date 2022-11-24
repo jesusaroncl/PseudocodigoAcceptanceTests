@@ -9,37 +9,37 @@ namespace ClusterCompanyTests.StepDefinitions
         [Given(@"que el usuario quiere aprovechar los beneficios proporcionados por la subscripción del aplicativo")]
         public void GivenQueElUsuarioQuiereAprovecharLosBeneficiosProporcionadosPorLaSubscripcionDelAplicativo()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(GivenQueElUsuarioQuiereAprovecharLosBeneficiosProporcionadosPorLaSubscripcionDelAplicativo)}");
         }
 
         [When(@"el usuario haya realizado la transacción de pago de la subscripción")]
         public void WhenElUsuarioHayaRealizadoLaTransaccionDePagoDeLaSubscripcion()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(WhenElUsuarioHayaRealizadoLaTransaccionDePagoDeLaSubscripcion)}");
         }
 
         [When(@"el usuario haya recibido la notificación de “Pago validado”")]
         public void WhenElUsuarioHayaRecibidoLaNotificacionDePagoValidado()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(WhenElUsuarioHayaRecibidoLaNotificacionDePagoValidado)}");
         }
 
         [Then(@"el sistema ofrecerá un apartado de premium al usuario")]
         public void ThenElSistemaOfreceraUnApartadoDePremiumAlUsuario()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(ThenElSistemaOfreceraUnApartadoDePremiumAlUsuario)}");
         }
 
         [Then(@"listará las imágenes con las ofertas de los productos indicando sus proveedores")]
         public void ThenListaraLasImagenesConLasOfertasDeLosProductosIndicandoSusProveedores()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(ThenListaraLasImagenesConLasOfertasDeLosProductosIndicandoSusProveedores)}");
         }
 
         [Then(@"se visualizará dentro del apartado “Subscripción Premium” dentro de la sección de “Información”")]
         public void ThenSeVisualizaraDentroDelApartadoSubscripcionPremiumDentroDeLaSeccionDeInformacion()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(ThenSeVisualizaraDentroDelApartadoSubscripcionPremiumDentroDeLaSeccionDeInformacion)}");
         }
     }
 }

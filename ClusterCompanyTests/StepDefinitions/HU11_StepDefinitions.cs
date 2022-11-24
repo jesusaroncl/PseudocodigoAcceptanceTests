@@ -9,19 +9,19 @@ namespace ClusterCompanyTests.StepDefinitions
         [Given(@"que el usuario registra sus gastos")]
         public void GivenQueElUsuarioRegistraSusGastos()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(GivenQueElUsuarioRegistraSusGastos)}");
         }
 
         [When(@"el usuario la emplea para saber en que gasta su dinero")]
         public void WhenElUsuarioLaEmpleaParaSaberEnQueGastaSuDinero()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(WhenElUsuarioLaEmpleaParaSaberEnQueGastaSuDinero)}");
         }
 
         [Then(@"el aplicativo muestra un gráfico que representa como gasta su dinero en diferentes cosas\.")]
         public void ThenElAplicativoMuestraUnGraficoQueRepresentaComoGastaSuDineroEnDiferentesCosas_()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(ThenElAplicativoMuestraUnGraficoQueRepresentaComoGastaSuDineroEnDiferentesCosas_)}");
         }
     }
 }

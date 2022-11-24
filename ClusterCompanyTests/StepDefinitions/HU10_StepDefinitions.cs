@@ -9,19 +9,19 @@ namespace ClusterCompanyTests.StepDefinitions
         [Given(@"que el usuario baja la aplicación")]
         public void GivenQueElUsuarioBajaLaAplicacion()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(GivenQueElUsuarioBajaLaAplicacion)}");
         }
 
         [When(@"el usuario la utiliza para estimar un gasto aproximado a fin de mes")]
         public void WhenElUsuarioLaUtilizaParaEstimarUnGastoAproximadoAFinDeMes()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(WhenElUsuarioLaUtilizaParaEstimarUnGastoAproximadoAFinDeMes)}");
         }
 
         [Then(@"el aplicativo proporcionara un gasto estimado de acuerdo con sus necesidades\.")]
         public void ThenElAplicativoProporcionaraUnGastoEstimadoDeAcuerdoConSusNecesidades_()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(ThenElAplicativoProporcionaraUnGastoEstimadoDeAcuerdoConSusNecesidades_)}");
         }
     }
 }

@@ -9,13 +9,13 @@ namespace ClusterCompanyTests.StepDefinitions
         [When(@"el usuario obtiene a fin de mes el reporte de sus gastos")]
         public void WhenElUsuarioObtieneAFinDeMesElReporteDeSusGastos()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(WhenElUsuarioObtieneAFinDeMesElReporteDeSusGastos)}");
         }
 
         [Then(@"el aplicativo proporciona el informe detallado y por fechas de los gastos de sus operaciones\.")]
         public void ThenElAplicativoProporcionaElInformeDetalladoYPorFechasDeLosGastosDeSusOperaciones_()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(ThenElAplicativoProporcionaElInformeDetalladoYPorFechasDeLosGastosDeSusOperaciones_)}");
         }
     }
 }

@@ -9,61 +9,61 @@ namespace ClusterCompanyTests.StepDefinitions
         [Given(@"que el cliente se encuentre en la pantalla de inicio de sesión en el aplicativo")]
         public void GivenQueElClienteSeEncuentreEnLaPantallaDeInicioDeSesionEnElAplicativo()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(GivenQueElClienteSeEncuentreEnLaPantallaDeInicioDeSesionEnElAplicativo)}");
         }
 
         [When(@"el cliente ingresa sus datos ya registrados en la base de datos en los cuadros dependiendo la información proporcionada")]
         public void WhenElClienteIngresaSusDatosYaRegistradosEnLaBaseDeDatosEnLosCuadrosDependiendoLaInformacionProporcionada()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(WhenElClienteIngresaSusDatosYaRegistradosEnLaBaseDeDatosEnLosCuadrosDependiendoLaInformacionProporcionada)}");
         }
 
         [When(@"hace click en el botón de “Login”\.")]
         public void WhenHaceClickEnElBotonDeLogin_()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(WhenHaceClickEnElBotonDeLogin_)}");
         }
 
         [Then(@"el sistema realizara una consulta a la base de datos asignada")]
         public void ThenElSistemaRealizaraUnaConsultaALaBaseDeDatosAsignada()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(ThenElSistemaRealizaraUnaConsultaALaBaseDeDatosAsignada)}");
         }
 
         [Then(@"verificara la existencia de los datos proporcionados por el cliente")]
         public void ThenVerificaraLaExistenciaDeLosDatosProporcionadosPorElCliente()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(ThenVerificaraLaExistenciaDeLosDatosProporcionadosPorElCliente)}");
         }
 
         [Then(@"redirige al cliente a la pantalla principal del aplicativo dependiendo la cuenta vinculada por un periodo de tiempo\.")]
         public void ThenRedirigeAlClienteALaPantallaPrincipalDelAplicativoDependiendoLaCuentaVinculadaPorUnPeriodoDeTiempo_()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(ThenRedirigeAlClienteALaPantallaPrincipalDelAplicativoDependiendoLaCuentaVinculadaPorUnPeriodoDeTiempo_)}");
         }
 
         [Given(@"que el usuario se encuentre en la pantalla de inicio de sesión en el aplicativo")]
         public void GivenQueElUsuarioSeEncuentreEnLaPantallaDeInicioDeSesionEnElAplicativo()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(GivenQueElUsuarioSeEncuentreEnLaPantallaDeInicioDeSesionEnElAplicativo)}");
         }
 
         [When(@"el usuario ingresa sus datos no registrados en los cuadros dependiendo la información proporcionada")]
         public void WhenElUsuarioIngresaSusDatosNoRegistradosEnLosCuadrosDependiendoLaInformacionProporcionada()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(WhenElUsuarioIngresaSusDatosNoRegistradosEnLosCuadrosDependiendoLaInformacionProporcionada)}");
         }
 
         [Then(@"verificara que no existen los datos proporcionados por el usuario")]
         public void ThenVerificaraQueNoExistenLosDatosProporcionadosPorElUsuario()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(ThenVerificaraQueNoExistenLosDatosProporcionadosPorElUsuario)}");
         }
 
         [Then(@"resaltará un mensaje indicando que los datos proporcionados no son correctos o no están registrados\.")]
         public void ThenResaltaraUnMensajeIndicandoQueLosDatosProporcionadosNoSonCorrectosONoEstanRegistrados_()
         {
-            throw new PendingStepException();
+            Console.WriteLine($"{nameof(ThenResaltaraUnMensajeIndicandoQueLosDatosProporcionadosNoSonCorrectosONoEstanRegistrados_)}");
         }
     }
 }
